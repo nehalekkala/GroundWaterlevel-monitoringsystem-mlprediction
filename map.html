@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fb18807ec581927938b314466f69053b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fb18807ec581927938b314466f69053b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fb18807ec581927938b314466f69053b = L.map(
+                "map_fb18807ec581927938b314466f69053b",
+                {
+                    center: [17.385, 78.4867],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ed53430eab99e500bc22d67895bbed1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0ed53430eab99e500bc22d67895bbed1.addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var marker_09317d8dd61931cee7fa28b9f4a204b0 = L.marker(
+                [19.67, 78.53],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_4e9c5aa98d00658f5602d62958da8324 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b1bd92ee7748f15d63a17bb2e16404d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1d8a68219031a3ba798b9fa9c64a2e5 = $(`<div id="html_e1d8a68219031a3ba798b9fa9c64a2e5" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Adilabad<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 180 ft         </div>`)[0];
+                popup_9b1bd92ee7748f15d63a17bb2e16404d.setContent(html_e1d8a68219031a3ba798b9fa9c64a2e5);
+            
+        
+
+        marker_09317d8dd61931cee7fa28b9f4a204b0.bindPopup(popup_9b1bd92ee7748f15d63a17bb2e16404d)
+        ;
+
+        
+    
+    
+                marker_09317d8dd61931cee7fa28b9f4a204b0.setIcon(icon_4e9c5aa98d00658f5602d62958da8324);
+            
+    
+            var marker_71b25b98a9ed250a8ae571ede9358b54 = L.marker(
+                [17.55, 80.9],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_f57585f00d22d804ef6eae4158ecfe1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8011acd2c57c3ac69a3786f07e0c790a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f10516de74d4289aad4135ddf70c43cc = $(`<div id="html_f10516de74d4289aad4135ddf70c43cc" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Bhadradri Kothagudem<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 150 ft         </div>`)[0];
+                popup_8011acd2c57c3ac69a3786f07e0c790a.setContent(html_f10516de74d4289aad4135ddf70c43cc);
+            
+        
+
+        marker_71b25b98a9ed250a8ae571ede9358b54.bindPopup(popup_8011acd2c57c3ac69a3786f07e0c790a)
+        ;
+
+        
+    
+    
+                marker_71b25b98a9ed250a8ae571ede9358b54.setIcon(icon_f57585f00d22d804ef6eae4158ecfe1c);
+            
+    
+            var marker_100f6f735244a0cc61e010f47f283616 = L.marker(
+                [17.38, 78.48],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_c671689f39ec28f16619177d15ede246 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7214cf78d8a1a02d97e9b9895e461eef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8937517f2681261871dff46cec3a0236 = $(`<div id="html_8937517f2681261871dff46cec3a0236" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Hyderabad<br>         <b>Land Type:</b> Urban<br>         <b>Recommended Borewell Depth:</b> 120 ft         </div>`)[0];
+                popup_7214cf78d8a1a02d97e9b9895e461eef.setContent(html_8937517f2681261871dff46cec3a0236);
+            
+        
+
+        marker_100f6f735244a0cc61e010f47f283616.bindPopup(popup_7214cf78d8a1a02d97e9b9895e461eef)
+        ;
+
+        
+    
+    
+                marker_100f6f735244a0cc61e010f47f283616.setIcon(icon_c671689f39ec28f16619177d15ede246);
+            
+    
+            var marker_1211a51fb027ba7507dee4b8a99e7ebf = L.marker(
+                [18.79, 78.93],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_44d3276b14f37082ac1afacee026c368 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_169691a02d0c04e812d28b75ad98ffa7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be564f6cf5cfd640100da41df85ff3ab = $(`<div id="html_be564f6cf5cfd640100da41df85ff3ab" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Jagtial<br>         <b>Land Type:</b> Sandy<br>         <b>Recommended Borewell Depth:</b> 200 ft         </div>`)[0];
+                popup_169691a02d0c04e812d28b75ad98ffa7.setContent(html_be564f6cf5cfd640100da41df85ff3ab);
+            
+        
+
+        marker_1211a51fb027ba7507dee4b8a99e7ebf.bindPopup(popup_169691a02d0c04e812d28b75ad98ffa7)
+        ;
+
+        
+    
+    
+                marker_1211a51fb027ba7507dee4b8a99e7ebf.setIcon(icon_44d3276b14f37082ac1afacee026c368);
+            
+    
+            var marker_347aef1804763e100a9b335ae270364d = L.marker(
+                [17.72, 79.15],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_a810a8483cb32be742811698c74085e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7850276c3fbc81d91b25451226e606e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f95ad849bf091f916bc22a3b578cd00 = $(`<div id="html_5f95ad849bf091f916bc22a3b578cd00" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Jangaon<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 190 ft         </div>`)[0];
+                popup_7850276c3fbc81d91b25451226e606e7.setContent(html_5f95ad849bf091f916bc22a3b578cd00);
+            
+        
+
+        marker_347aef1804763e100a9b335ae270364d.bindPopup(popup_7850276c3fbc81d91b25451226e606e7)
+        ;
+
+        
+    
+    
+                marker_347aef1804763e100a9b335ae270364d.setIcon(icon_a810a8483cb32be742811698c74085e5);
+            
+    
+            var marker_609231a3041411ee129b5cfb1ea2ef3f = L.marker(
+                [18.41, 80.07],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_a5667d59b818cf3fd83807d91c66b2ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35b7c8e687117fd415e59363d2f3526b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6007d848fce21e30d3a8629b5157f38e = $(`<div id="html_6007d848fce21e30d3a8629b5157f38e" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Jayashankar Bhupalpally<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 160 ft         </div>`)[0];
+                popup_35b7c8e687117fd415e59363d2f3526b.setContent(html_6007d848fce21e30d3a8629b5157f38e);
+            
+        
+
+        marker_609231a3041411ee129b5cfb1ea2ef3f.bindPopup(popup_35b7c8e687117fd415e59363d2f3526b)
+        ;
+
+        
+    
+    
+                marker_609231a3041411ee129b5cfb1ea2ef3f.setIcon(icon_a5667d59b818cf3fd83807d91c66b2ac);
+            
+    
+            var marker_9769ec3d84e156c2eeb7adefd056817f = L.marker(
+                [16.23, 77.8],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_36c968fe2cfef6775a19b2169ce42fd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1484af79be0ef091dbe02036251a7e21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bb31bf58b8ca4a88805e303b0c09b23 = $(`<div id="html_3bb31bf58b8ca4a88805e303b0c09b23" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Jogulamba Gadwal<br>         <b>Land Type:</b> Sandy<br>         <b>Recommended Borewell Depth:</b> 210 ft         </div>`)[0];
+                popup_1484af79be0ef091dbe02036251a7e21.setContent(html_3bb31bf58b8ca4a88805e303b0c09b23);
+            
+        
+
+        marker_9769ec3d84e156c2eeb7adefd056817f.bindPopup(popup_1484af79be0ef091dbe02036251a7e21)
+        ;
+
+        
+    
+    
+                marker_9769ec3d84e156c2eeb7adefd056817f.setIcon(icon_36c968fe2cfef6775a19b2169ce42fd4);
+            
+    
+            var marker_0290f6599ca6aa0b19eafa928ba6831a = L.marker(
+                [18.32, 78.35],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_c8f24678c114a97e4fd975f3b4ba7183 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a560cbd30357f9aebe784824f4fe111c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ed2904b4da4c281676589ccd33b35b2 = $(`<div id="html_8ed2904b4da4c281676589ccd33b35b2" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Kamareddy<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 175 ft         </div>`)[0];
+                popup_a560cbd30357f9aebe784824f4fe111c.setContent(html_8ed2904b4da4c281676589ccd33b35b2);
+            
+        
+
+        marker_0290f6599ca6aa0b19eafa928ba6831a.bindPopup(popup_a560cbd30357f9aebe784824f4fe111c)
+        ;
+
+        
+    
+    
+                marker_0290f6599ca6aa0b19eafa928ba6831a.setIcon(icon_c8f24678c114a97e4fd975f3b4ba7183);
+            
+    
+            var marker_f5927d237684156f0c96effe963fa772 = L.marker(
+                [18.43, 79.12],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_9d6a1e8ca32b9cb79fa4af8091ecbc7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a75582573427b9816ca69c962ce75578 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a357c46d63892d182235b270384ca3c7 = $(`<div id="html_a357c46d63892d182235b270384ca3c7" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Karimnagar<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 170 ft         </div>`)[0];
+                popup_a75582573427b9816ca69c962ce75578.setContent(html_a357c46d63892d182235b270384ca3c7);
+            
+        
+
+        marker_f5927d237684156f0c96effe963fa772.bindPopup(popup_a75582573427b9816ca69c962ce75578)
+        ;
+
+        
+    
+    
+                marker_f5927d237684156f0c96effe963fa772.setIcon(icon_9d6a1e8ca32b9cb79fa4af8091ecbc7e);
+            
+    
+            var marker_8e9a398a53108535ac0b763da438d0ee = L.marker(
+                [17.25, 80.15],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_e399c6cc76987c77b412b3ab83f39fbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6df6f66d972614f6abaef9613e86517a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfe8afcc2d91a3f6499860722e989c52 = $(`<div id="html_bfe8afcc2d91a3f6499860722e989c52" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Khammam<br>         <b>Land Type:</b> Sandy<br>         <b>Recommended Borewell Depth:</b> 140 ft         </div>`)[0];
+                popup_6df6f66d972614f6abaef9613e86517a.setContent(html_bfe8afcc2d91a3f6499860722e989c52);
+            
+        
+
+        marker_8e9a398a53108535ac0b763da438d0ee.bindPopup(popup_6df6f66d972614f6abaef9613e86517a)
+        ;
+
+        
+    
+    
+                marker_8e9a398a53108535ac0b763da438d0ee.setIcon(icon_e399c6cc76987c77b412b3ab83f39fbf);
+            
+    
+            var marker_5857d7c68e140ff384c2aceb3239fc43 = L.marker(
+                [19.07, 79.27],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_55cf66f6a452be9b7e1b1719578c3469 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_909ff9f3f72f273e7843886c3af5d3ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f11162595444b1117632e5d993f4686e = $(`<div id="html_f11162595444b1117632e5d993f4686e" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Komaram Bheem Asifabad<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 185 ft         </div>`)[0];
+                popup_909ff9f3f72f273e7843886c3af5d3ab.setContent(html_f11162595444b1117632e5d993f4686e);
+            
+        
+
+        marker_5857d7c68e140ff384c2aceb3239fc43.bindPopup(popup_909ff9f3f72f273e7843886c3af5d3ab)
+        ;
+
+        
+    
+    
+                marker_5857d7c68e140ff384c2aceb3239fc43.setIcon(icon_55cf66f6a452be9b7e1b1719578c3469);
+            
+    
+            var marker_d4d8eff4bb895fbcc833155dd0969099 = L.marker(
+                [17.6, 80.0],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_ab555518b14f7113778fa313567e3a94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e7fec09a60e4e647e595c06c9d5a4c94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9905064dafc92785b6544253cc9377d9 = $(`<div id="html_9905064dafc92785b6544253cc9377d9" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Mahabubabad<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 155 ft         </div>`)[0];
+                popup_e7fec09a60e4e647e595c06c9d5a4c94.setContent(html_9905064dafc92785b6544253cc9377d9);
+            
+        
+
+        marker_d4d8eff4bb895fbcc833155dd0969099.bindPopup(popup_e7fec09a60e4e647e595c06c9d5a4c94)
+        ;
+
+        
+    
+    
+                marker_d4d8eff4bb895fbcc833155dd0969099.setIcon(icon_ab555518b14f7113778fa313567e3a94);
+            
+    
+            var marker_d2fb6aa64ce02ed97db454d500ae8c54 = L.marker(
+                [16.74, 78.01],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_958d5006fb779d5143413c6c535e9216 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23b3e93625663deb91f4025d93122afd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_604c175d4ef9d10016f41d5ac715632b = $(`<div id="html_604c175d4ef9d10016f41d5ac715632b" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Mahabubnagar<br>         <b>Land Type:</b> Sandy<br>         <b>Recommended Borewell Depth:</b> 225 ft         </div>`)[0];
+                popup_23b3e93625663deb91f4025d93122afd.setContent(html_604c175d4ef9d10016f41d5ac715632b);
+            
+        
+
+        marker_d2fb6aa64ce02ed97db454d500ae8c54.bindPopup(popup_23b3e93625663deb91f4025d93122afd)
+        ;
+
+        
+    
+    
+                marker_d2fb6aa64ce02ed97db454d500ae8c54.setIcon(icon_958d5006fb779d5143413c6c535e9216);
+            
+    
+            var marker_5f454a2e6762e95120844837b4de4ce8 = L.marker(
+                [18.88, 79.47],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_120eb198c15fe140a33f8f2a36af9d1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fdc16148ae13b4b52049746aae317979 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_551d465848110c353ceb525a3ea03484 = $(`<div id="html_551d465848110c353ceb525a3ea03484" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Mancherial<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 165 ft         </div>`)[0];
+                popup_fdc16148ae13b4b52049746aae317979.setContent(html_551d465848110c353ceb525a3ea03484);
+            
+        
+
+        marker_5f454a2e6762e95120844837b4de4ce8.bindPopup(popup_fdc16148ae13b4b52049746aae317979)
+        ;
+
+        
+    
+    
+                marker_5f454a2e6762e95120844837b4de4ce8.setIcon(icon_120eb198c15fe140a33f8f2a36af9d1e);
+            
+    
+            var marker_19d0d84747ade6040a4447655271a52d = L.marker(
+                [18.03, 78.27],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_7106f29ce25050a00ab67a620102f93e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42d2a08682dabb3f6e7f80d97d727340 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f2fda98b6a4e1c1921498fd4a050401 = $(`<div id="html_0f2fda98b6a4e1c1921498fd4a050401" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Medak<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 180 ft         </div>`)[0];
+                popup_42d2a08682dabb3f6e7f80d97d727340.setContent(html_0f2fda98b6a4e1c1921498fd4a050401);
+            
+        
+
+        marker_19d0d84747ade6040a4447655271a52d.bindPopup(popup_42d2a08682dabb3f6e7f80d97d727340)
+        ;
+
+        
+    
+    
+                marker_19d0d84747ade6040a4447655271a52d.setIcon(icon_7106f29ce25050a00ab67a620102f93e);
+            
+    
+            var marker_5d383331025bef68b812c695e07882cb = L.marker(
+                [17.5, 78.64],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_2febc9960a0ca57f8281d97735cd8899 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45db6b148aa5af6b6e9941122fd87c7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f0621e4f188d207922eb6f3409a16a9 = $(`<div id="html_9f0621e4f188d207922eb6f3409a16a9" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Medchal-Malkajgiri<br>         <b>Land Type:</b> Urban<br>         <b>Recommended Borewell Depth:</b> 130 ft         </div>`)[0];
+                popup_45db6b148aa5af6b6e9941122fd87c7d.setContent(html_9f0621e4f188d207922eb6f3409a16a9);
+            
+        
+
+        marker_5d383331025bef68b812c695e07882cb.bindPopup(popup_45db6b148aa5af6b6e9941122fd87c7d)
+        ;
+
+        
+    
+    
+                marker_5d383331025bef68b812c695e07882cb.setIcon(icon_2febc9960a0ca57f8281d97735cd8899);
+            
+    
+            var marker_6471fb8bc025ffb35ba184b900eed664 = L.marker(
+                [18.19, 80.04],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_11bf9ccaaa7ef13e9d0ec725a462c3d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a74c3a3299ecd35f7e696d858a04be6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ccabe61c7688b5457c7750297e5e3ec = $(`<div id="html_5ccabe61c7688b5457c7750297e5e3ec" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Mulugu<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 160 ft         </div>`)[0];
+                popup_9a74c3a3299ecd35f7e696d858a04be6.setContent(html_5ccabe61c7688b5457c7750297e5e3ec);
+            
+        
+
+        marker_6471fb8bc025ffb35ba184b900eed664.bindPopup(popup_9a74c3a3299ecd35f7e696d858a04be6)
+        ;
+
+        
+    
+    
+                marker_6471fb8bc025ffb35ba184b900eed664.setIcon(icon_11bf9ccaaa7ef13e9d0ec725a462c3d8);
+            
+    
+            var marker_aaabb255d54e9b7db742970a659a448f = L.marker(
+                [16.48, 78.4],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_85b5fa4daeda094dfc93a07bafeff7c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2954fd473fff1cdc2964eb932c4e547 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_221bd508746b7e410edc8d2628e76485 = $(`<div id="html_221bd508746b7e410edc8d2628e76485" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Nagarkurnool<br>         <b>Land Type:</b> Sandy<br>         <b>Recommended Borewell Depth:</b> 220 ft         </div>`)[0];
+                popup_c2954fd473fff1cdc2964eb932c4e547.setContent(html_221bd508746b7e410edc8d2628e76485);
+            
+        
+
+        marker_aaabb255d54e9b7db742970a659a448f.bindPopup(popup_c2954fd473fff1cdc2964eb932c4e547)
+        ;
+
+        
+    
+    
+                marker_aaabb255d54e9b7db742970a659a448f.setIcon(icon_85b5fa4daeda094dfc93a07bafeff7c1);
+            
+    
+            var marker_1a35452b3721c3126ebefb6b761a425a = L.marker(
+                [17.05, 79.27],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_55255194caee941a113ccd68234fbb2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3c25b718952cc83e2e71d741a3389b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7783fafc901ae841459bfa3f65efd8b5 = $(`<div id="html_7783fafc901ae841459bfa3f65efd8b5" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Nalgonda<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 200 ft         </div>`)[0];
+                popup_d3c25b718952cc83e2e71d741a3389b4.setContent(html_7783fafc901ae841459bfa3f65efd8b5);
+            
+        
+
+        marker_1a35452b3721c3126ebefb6b761a425a.bindPopup(popup_d3c25b718952cc83e2e71d741a3389b4)
+        ;
+
+        
+    
+    
+                marker_1a35452b3721c3126ebefb6b761a425a.setIcon(icon_55255194caee941a113ccd68234fbb2d);
+            
+    
+            var marker_c5bc39c16df8531e69e27b5a6f071ea1 = L.marker(
+                [16.72, 77.87],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_d6be5c44cd15bbd4c40355e74d0c159a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e016987d187323a8167930904793f775 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ae519f38ea7585de4e1840d94efebd2 = $(`<div id="html_6ae519f38ea7585de4e1840d94efebd2" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Narayanpet<br>         <b>Land Type:</b> Sandy<br>         <b>Recommended Borewell Depth:</b> 230 ft         </div>`)[0];
+                popup_e016987d187323a8167930904793f775.setContent(html_6ae519f38ea7585de4e1840d94efebd2);
+            
+        
+
+        marker_c5bc39c16df8531e69e27b5a6f071ea1.bindPopup(popup_e016987d187323a8167930904793f775)
+        ;
+
+        
+    
+    
+                marker_c5bc39c16df8531e69e27b5a6f071ea1.setIcon(icon_d6be5c44cd15bbd4c40355e74d0c159a);
+            
+    
+            var marker_96d353f1d65db67715a17014bd7755d0 = L.marker(
+                [19.1, 78.37],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_c4e2f02bf8480ef3ec5bd0e13e7cffc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c3de9b86f1bc36ebeba8f46c8dbb9bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6fcc49773c8a4c7497e2e9962bca5c2 = $(`<div id="html_f6fcc49773c8a4c7497e2e9962bca5c2" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Nirmal<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 195 ft         </div>`)[0];
+                popup_9c3de9b86f1bc36ebeba8f46c8dbb9bb.setContent(html_f6fcc49773c8a4c7497e2e9962bca5c2);
+            
+        
+
+        marker_96d353f1d65db67715a17014bd7755d0.bindPopup(popup_9c3de9b86f1bc36ebeba8f46c8dbb9bb)
+        ;
+
+        
+    
+    
+                marker_96d353f1d65db67715a17014bd7755d0.setIcon(icon_c4e2f02bf8480ef3ec5bd0e13e7cffc9);
+            
+    
+            var marker_e4fa487f79db4c04c625c75241ca2bb7 = L.marker(
+                [18.67, 78.1],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_82ab9614484cf0f9b775f486cadd68fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c59d6adfa4d7adbc495c60bc0bbd832f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdf98cbe0c975b8acfb0f9fb083a4a1e = $(`<div id="html_bdf98cbe0c975b8acfb0f9fb083a4a1e" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Nizamabad<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 175 ft         </div>`)[0];
+                popup_c59d6adfa4d7adbc495c60bc0bbd832f.setContent(html_bdf98cbe0c975b8acfb0f9fb083a4a1e);
+            
+        
+
+        marker_e4fa487f79db4c04c625c75241ca2bb7.bindPopup(popup_c59d6adfa4d7adbc495c60bc0bbd832f)
+        ;
+
+        
+    
+    
+                marker_e4fa487f79db4c04c625c75241ca2bb7.setIcon(icon_82ab9614484cf0f9b775f486cadd68fd);
+            
+    
+            var marker_671f2a04bb9cba0a219182dcb8be6977 = L.marker(
+                [18.62, 79.35],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_4b2e2a064622e16e613d25faa12f2a6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b6ea4f081998b1bbee56d1d09cc2f5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37d81226350e58e9f8af2ec7f32da9e7 = $(`<div id="html_37d81226350e58e9f8af2ec7f32da9e7" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Peddapalli<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 190 ft         </div>`)[0];
+                popup_9b6ea4f081998b1bbee56d1d09cc2f5a.setContent(html_37d81226350e58e9f8af2ec7f32da9e7);
+            
+        
+
+        marker_671f2a04bb9cba0a219182dcb8be6977.bindPopup(popup_9b6ea4f081998b1bbee56d1d09cc2f5a)
+        ;
+
+        
+    
+    
+                marker_671f2a04bb9cba0a219182dcb8be6977.setIcon(icon_4b2e2a064622e16e613d25faa12f2a6e);
+            
+    
+            var marker_0fad3010d0d9e8d073f0aedee264df96 = L.marker(
+                [18.38, 78.8],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_01e0d8c24e2ae13f3f9e1acc8c30df96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_34c4178eda60980020015823c2dc1309 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5649715135590abe88ce0735e16c2597 = $(`<div id="html_5649715135590abe88ce0735e16c2597" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Rajanna Sircilla<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 180 ft         </div>`)[0];
+                popup_34c4178eda60980020015823c2dc1309.setContent(html_5649715135590abe88ce0735e16c2597);
+            
+        
+
+        marker_0fad3010d0d9e8d073f0aedee264df96.bindPopup(popup_34c4178eda60980020015823c2dc1309)
+        ;
+
+        
+    
+    
+                marker_0fad3010d0d9e8d073f0aedee264df96.setIcon(icon_01e0d8c24e2ae13f3f9e1acc8c30df96);
+            
+    
+            var marker_4e98dacb307719f38312172e046dddcb = L.marker(
+                [17.39, 78.58],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_2c337d7b552b0e1045e6ab1d68eb7ff2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_108eb7e32eb2ee7c0f8ade213c2910a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ecc9b5fcdd3cac2f8b1c156eeec1566 = $(`<div id="html_1ecc9b5fcdd3cac2f8b1c156eeec1566" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Rangareddy<br>         <b>Land Type:</b> Urban<br>         <b>Recommended Borewell Depth:</b> 125 ft         </div>`)[0];
+                popup_108eb7e32eb2ee7c0f8ade213c2910a2.setContent(html_1ecc9b5fcdd3cac2f8b1c156eeec1566);
+            
+        
+
+        marker_4e98dacb307719f38312172e046dddcb.bindPopup(popup_108eb7e32eb2ee7c0f8ade213c2910a2)
+        ;
+
+        
+    
+    
+                marker_4e98dacb307719f38312172e046dddcb.setIcon(icon_2c337d7b552b0e1045e6ab1d68eb7ff2);
+            
+    
+            var marker_84b8fa662f1f612467e7fd06aef6a4ae = L.marker(
+                [17.93, 78.08],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_d9e2139c23c6400bb003ff2a751c05b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a534fb0b5f098fe5748251099e034c03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfaa3ccdb768e12488bfb37536c1f156 = $(`<div id="html_bfaa3ccdb768e12488bfb37536c1f156" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Sangareddy<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 185 ft         </div>`)[0];
+                popup_a534fb0b5f098fe5748251099e034c03.setContent(html_bfaa3ccdb768e12488bfb37536c1f156);
+            
+        
+
+        marker_84b8fa662f1f612467e7fd06aef6a4ae.bindPopup(popup_a534fb0b5f098fe5748251099e034c03)
+        ;
+
+        
+    
+    
+                marker_84b8fa662f1f612467e7fd06aef6a4ae.setIcon(icon_d9e2139c23c6400bb003ff2a751c05b5);
+            
+    
+            var marker_995f712ab2637a70eeb4833d099fa9ca = L.marker(
+                [18.1, 78.86],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_aff8e8dce95b40e1e0beb7c0a295219a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7daeaf97da0c13343d806cedb34fcc63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cb4183db643755e8a4c249c2c7b2f57 = $(`<div id="html_7cb4183db643755e8a4c249c2c7b2f57" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Siddipet<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 170 ft         </div>`)[0];
+                popup_7daeaf97da0c13343d806cedb34fcc63.setContent(html_7cb4183db643755e8a4c249c2c7b2f57);
+            
+        
+
+        marker_995f712ab2637a70eeb4833d099fa9ca.bindPopup(popup_7daeaf97da0c13343d806cedb34fcc63)
+        ;
+
+        
+    
+    
+                marker_995f712ab2637a70eeb4833d099fa9ca.setIcon(icon_aff8e8dce95b40e1e0beb7c0a295219a);
+            
+    
+            var marker_aa5f63117e544c8d5830b657c8d20837 = L.marker(
+                [17.14, 79.63],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_86619dcea7c4bfe2f9a64a7764f95cc8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_566d37f58d986b3853e3430e94579743 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3b83b3b3b17429349cbd5efd5663cca = $(`<div id="html_d3b83b3b3b17429349cbd5efd5663cca" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Suryapet<br>         <b>Land Type:</b> Sandy<br>         <b>Recommended Borewell Depth:</b> 150 ft         </div>`)[0];
+                popup_566d37f58d986b3853e3430e94579743.setContent(html_d3b83b3b3b17429349cbd5efd5663cca);
+            
+        
+
+        marker_aa5f63117e544c8d5830b657c8d20837.bindPopup(popup_566d37f58d986b3853e3430e94579743)
+        ;
+
+        
+    
+    
+                marker_aa5f63117e544c8d5830b657c8d20837.setIcon(icon_86619dcea7c4bfe2f9a64a7764f95cc8);
+            
+    
+            var marker_54caf96d43000822cf33a37745990ccd = L.marker(
+                [17.34, 77.9],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_5891a32034e126288da3dd857bacd517 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea559db4f2012a1de7c60066824281d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_652b395d6307cafdec6e865e3d315250 = $(`<div id="html_652b395d6307cafdec6e865e3d315250" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Vikarabad<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 190 ft         </div>`)[0];
+                popup_ea559db4f2012a1de7c60066824281d7.setContent(html_652b395d6307cafdec6e865e3d315250);
+            
+        
+
+        marker_54caf96d43000822cf33a37745990ccd.bindPopup(popup_ea559db4f2012a1de7c60066824281d7)
+        ;
+
+        
+    
+    
+                marker_54caf96d43000822cf33a37745990ccd.setIcon(icon_5891a32034e126288da3dd857bacd517);
+            
+    
+            var marker_63fc308816c46579f67b240f58c1cc73 = L.marker(
+                [16.36, 78.06],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_926f91e12d5a78535d6b02f209132080 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ecd8317cf2cb2438a0c71a172d6820f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_966fb522d450fd248559edc929972e5f = $(`<div id="html_966fb522d450fd248559edc929972e5f" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Wanaparthy<br>         <b>Land Type:</b> Sandy<br>         <b>Recommended Borewell Depth:</b> 210 ft         </div>`)[0];
+                popup_0ecd8317cf2cb2438a0c71a172d6820f.setContent(html_966fb522d450fd248559edc929972e5f);
+            
+        
+
+        marker_63fc308816c46579f67b240f58c1cc73.bindPopup(popup_0ecd8317cf2cb2438a0c71a172d6820f)
+        ;
+
+        
+    
+    
+                marker_63fc308816c46579f67b240f58c1cc73.setIcon(icon_926f91e12d5a78535d6b02f209132080);
+            
+    
+            var marker_f09d92760b199b73326cceb3dfce2ed4 = L.marker(
+                [18.02, 79.64],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_29a986a40c3ead0d8d6d72ebd70fe932 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a03b5164fb057836e6e74cd5f00b4a6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6570e75a8e95853b7a3100b87d753c0 = $(`<div id="html_d6570e75a8e95853b7a3100b87d753c0" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Warangal Rural<br>         <b>Land Type:</b> Rocky<br>         <b>Recommended Borewell Depth:</b> 200 ft         </div>`)[0];
+                popup_a03b5164fb057836e6e74cd5f00b4a6f.setContent(html_d6570e75a8e95853b7a3100b87d753c0);
+            
+        
+
+        marker_f09d92760b199b73326cceb3dfce2ed4.bindPopup(popup_a03b5164fb057836e6e74cd5f00b4a6f)
+        ;
+
+        
+    
+    
+                marker_f09d92760b199b73326cceb3dfce2ed4.setIcon(icon_29a986a40c3ead0d8d6d72ebd70fe932);
+            
+    
+            var marker_83abb97974af6d9b29293ac568e8b5b7 = L.marker(
+                [17.97, 78.89],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_2b4a144454359ca80246972c261302aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72c5962fb8a178b912f89bb1808f242f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31b99e4ce1feeced3965ad0a5aaac097 = $(`<div id="html_31b99e4ce1feeced3965ad0a5aaac097" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Warangal Urban<br>         <b>Land Type:</b> Urban<br>         <b>Recommended Borewell Depth:</b> 135 ft         </div>`)[0];
+                popup_72c5962fb8a178b912f89bb1808f242f.setContent(html_31b99e4ce1feeced3965ad0a5aaac097);
+            
+        
+
+        marker_83abb97974af6d9b29293ac568e8b5b7.bindPopup(popup_72c5962fb8a178b912f89bb1808f242f)
+        ;
+
+        
+    
+    
+                marker_83abb97974af6d9b29293ac568e8b5b7.setIcon(icon_2b4a144454359ca80246972c261302aa);
+            
+    
+            var marker_62616f3ae8e5fb4d657f2edc842befa0 = L.marker(
+                [17.56, 78.82],
+                {
+}
+            ).addTo(map_fb18807ec581927938b314466f69053b);
+        
+    
+            var icon_5418689619fb31f7d5511ae574082924 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9be322d7867a0a7358d7df4e813c1167 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e160b9c88cf5bac2076fe064aecc9696 = $(`<div id="html_e160b9c88cf5bac2076fe064aecc9696" style="width: 100.0%; height: 100.0%;">         <b>Location:</b> Yadadri Bhuvanagiri<br>         <b>Land Type:</b> Clay<br>         <b>Recommended Borewell Depth:</b> 160 ft         </div>`)[0];
+                popup_9be322d7867a0a7358d7df4e813c1167.setContent(html_e160b9c88cf5bac2076fe064aecc9696);
+            
+        
+
+        marker_62616f3ae8e5fb4d657f2edc842befa0.bindPopup(popup_9be322d7867a0a7358d7df4e813c1167)
+        ;
+
+        
+    
+    
+                marker_62616f3ae8e5fb4d657f2edc842befa0.setIcon(icon_5418689619fb31f7d5511ae574082924);
+            
+</script>
+</html>
